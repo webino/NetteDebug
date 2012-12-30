@@ -1,0 +1,27 @@
+{
+    "name": "webino/nette-debug",
+    "description": "Nette debugger",
+    "type": "library",
+    "keywords": ["nette", "debug"],
+    "homepage": "https://github.com/webino/NetteDebug",
+    "license": "New BSD License",
+    "authors": [
+        {
+            "name": "David Grudl",
+            "email": "david@grudl.com",
+            "homepage": "http://davidgrudl.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Nette": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
